@@ -8,7 +8,7 @@ module ::UnwatchCategory
 
   def self.unwatch_category!
     groups_cats = {
-      "Usuarios" => [ "anuncios-institucionales", "servicios-internos-cab" ]
+      "Usuarios" => [ "servicios-internos-cab", "institucionales-cnea" ]
     }
 
     groups_cats.each do |group_name, cats|
